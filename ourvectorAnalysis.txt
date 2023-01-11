@@ -1,0 +1,65 @@
+//input and output starts --------------------------------
+
+Welcome to the DNA Profiling Application.
+Enter command or # to exit: load_db small.txt
+Loading Database...
+Enter command or # to exit: load_dna 1.txt
+Loading DNA...
+Enter command or # to exit: process
+Processing DNA...
+Enter command or # to exit: display
+Database loaded:
+Alice 2 8 3 
+Bob 4 1 5 
+Charlie 3 2 5 
+
+DNA loaded:
+AAGGTAAGTTTAGAATATAAAAGGTGAGTTAAATAGAATAGGTTAAAATTAAAGGAGATCAGATCAGATCAGATCTATCTATCTATCTATCTATCAGAAAAGAGTAAATAGTTAAAGAGTAAGATATTGAATTAATGGAAAATATTGTTGGGGAAAGGAGGGATAGAAGG
+
+DNA processed, STR counts:
+AGATC: 4
+AATG: 1
+TATC: 5
+
+Enter command or # to exit: search
+Searching database...
+Found in database!  DNA matches: Bob
+Enter command or # to exit: #  
+*********************************************************
+ourvector<NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE> stats:
+ # of vectors created:   1
+ # of elements inserted: 8
+ # of elements accessed: 8
+*********************************************************
+*********************************************************
+ourvector<i> stats:
+ # of vectors created:   26
+ # of elements inserted: 54
+ # of elements accessed: 62
+*********************************************************
+*********************************************************
+ourvector<7subject> stats:
+ # of vectors created:   3
+ # of elements inserted: 9
+ # of elements accessed: 35
+*********************************************************
+*********************************************************
+ourvector<9ourvectorIcE> stats:
+ # of vectors created:   3
+ # of elements inserted: 9
+ # of elements accessed: 837
+*********************************************************
+*********************************************************
+ourvector<c> stats:
+ # of vectors created:   23
+ # of elements inserted: 575
+ # of elements accessed: 2173
+*********************************************************
+
+
+//input and output ends ---------------------------------
+
+I created 1 ourvector in a struct(line 24) accessed 1 time in loadDb function,
+1 vector inside of my loadDna function accessed 5 times,
+5 vectors in the function of void menu accessed 56 times
+
